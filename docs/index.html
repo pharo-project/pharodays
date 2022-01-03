@@ -48,7 +48,8 @@ FACEBOOK: https://www.facebook.com/themefisher
   <link href="plugins/slick/slick-theme.css" rel="stylesheet">
   <!-- CUSTOM CSS -->
   <link href="css/style.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+  
   <!-- FAVICON -->
   <link href="http://files.pharo.org/media/logo/icon-256-256.ico" rel="shortcut icon">
 
@@ -1347,22 +1348,22 @@ FACEBOOK: https://www.facebook.com/themefisher
 
 <!--====  End of Call to Action Subscribe  ====-->
 
-<!--================================
-=            Google Map            =
-=================================-->
+<!--==========================
+=             Map            =
+=============================-->
 <section class="map">
-	<!-- Google Map -->
-	<div id="map" data-latitude="50.605643656880474" data-longitude="3.1478998822465676" data-marker="images/icon/marker.png" data-marker-name="Inria Lille - Nord Europe"></div>
+	<div id="mapid" style="width:100%; height:510px; z-index:0;"></div>
 	<div class="address-block">
 		<h4>Pharo Days</h4>
 		<ul class="address-list p-0 m-0">
 			<li><i class="fa fa-home"></i><span>Inria<br> 40 Avenue Halley <br>59650 Villeneuve d'Ascq, France.</span></li>
 			<li><i class="fa fa-phone"></i><span>+33 3 59 57 78 00</span></li>
 		</ul>
-		<a href="#" class="btn btn-white-md">Get Direction</a>
+		<a href="https://www.google.fr/maps/dir/''/Centre+de+recherche+Inria+Lille+Nord+-+Europe,+Park+Plaza,+Parc+scientifique+de+la+Haute-Borne,+40+Av.+Halley+B%C3%A2t+A,+59650+Villeneuve-d'Ascq/@50.604596,3.1518575,16.55z/data=!4m13!4m12!1m5!1m1!1s0x47c2d7a6043ecab3:0xdd455e8725d08197!2m2!1d3.147772!2d50.6055234!1m5!1m1!1s0x47c2d7a6043ecab3:0xdd455e8725d08197!2m2!1d3.147772!2d50.6055234" class="btn btn-white-md" target="blanck">Get Direction</a>
 	</div>
+
 </section>
-<!--====  End of Google Map  ====-->
+<!--====  End of  Map  ====-->
 
 <!--============================
 =            Footer            =
@@ -1426,10 +1427,19 @@ FACEBOOK: https://www.facebook.com/themefisher
   <script src="plugins/slick/slick.min.js"></script>
   <!-- SyoTimer -->
   <script src="plugins/syotimer/jquery.syotimer.min.js"></script>
-  <!-- Google Mapl -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script>
-  <script src="plugins/google-map/gmap.js"></script>
-  <!-- Custom Script -->
+  <!-- OpenStreetMap -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+  <script>
+	var mymap = new L.Map('mapid');
+  
+	//- create the tile layer with correct attribution
+	var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+	var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
+	var osm = new L.TileLayer(osmUrl, {minZoom: 8, maxZoom: 20, attribution: osmAttrib});
+	mymap.setView(new L.LatLng(50.607, 3.148), 15);
+	mymap.addLayer(osm);
+	L.marker([50.60556899622152, 3.148162364959717]).addTo(mymap).bindPopup("Inria Lille Nord-Europe".openPopup());
+  </script>
   <script src="js/script.js"></script>
 </body>
 
