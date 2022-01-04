@@ -1214,6 +1214,7 @@ FACEBOOK: https://www.facebook.com/themefisher
 	var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 	var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
 	var osm = new L.TileLayer(osmUrl, {minZoom: 8, maxZoom: 20, attribution: osmAttrib});
+	mymap.scrollWheelZoom.disable(); // prevent page scrolling if true
 	mymap.setView(new L.LatLng(50.607, 3.148), 15);
 	mymap.addLayer(osm);
 	L.marker([50.60556899622152, 3.148162364959717]).addTo(mymap).bindPopup("Inria Lille Nord-Europe".openPopup());
