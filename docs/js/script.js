@@ -61,13 +61,13 @@
     // -----------------------------
     //  Count Down JS
     // -----------------------------
-    $('.timer').syotimer({
+/*    $('.timer').syotimer({
       year: 2022,
       month: 3,
       day: 4,
       hour: 9,
       minute: 0
-    });
+    }); */
 
     // -----------------------------
     // Magnific Popup
