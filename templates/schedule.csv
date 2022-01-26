@@ -1,0 +1,11 @@
+time; subject; speaker; room
+9h30 - 10h00; Pharo for Scientists; Stéphane Ducasse; Amphiteater
+10h00 - 10h45; Scripting interactive visualizations / Extending the environment; Milton Mamani Torres; Amphiteater
+10h45 - 11h00; Coffee break<;; Hall
+11h00 - 12h30; Hands-on: Fun with machine learning (FFI, Python Bridge, BLAS, DataFrame); Sebastian Jordan Montano; Salle pleinière (A)
+12h30 - 14h00; Lunch break;; A building
+14h00 - 14h30; Building applications quickly (Spec GTK); Esteban Lorenzano; Amphiteater
+14h30 - 15h00; Building web application quickly; Pablo Tesone; Amphiteater
+15h00 - 15h30; How to persist data with Pharo? Mongo/Voyage, Postgres, ODBC;  Esteban Lorenzano; Amphiteater
+16h00 - 18h00; Hands-on: Building a Rest backend in 10 minutes; Christophe Demarey; Salle pleinière (A)
+18h00 - 18h30; Music performance / Live coding with Pharo; Domenico Cipriani; Amphiteater
