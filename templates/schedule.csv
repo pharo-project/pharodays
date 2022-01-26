@@ -1,11 +1,44 @@
 time; subject; speaker; room
 9h30 - 10h00; Pharo for Scientists; Stéphane Ducasse; Amphiteater
 10h00 - 10h45; Scripting interactive visualizations / Extending the environment; Milton Mamani Torres; Amphiteater
-10h45 - 11h00; Coffee break<;; Hall
+10h45 - 11h00; Coffee break;; Hall
 11h00 - 12h30; Hands-on: Fun with machine learning (FFI, Python Bridge, BLAS, DataFrame); Sebastian Jordan Montano; Salle pleinière (A)
 12h30 - 14h00; Lunch break;; A building
 14h00 - 14h30; Building applications quickly (Spec GTK); Esteban Lorenzano; Amphiteater
 14h30 - 15h00; Building web application quickly; Pablo Tesone; Amphiteater
-15h00 - 15h30; How to persist data with Pharo? Mongo/Voyage, Postgres, ODBC;  Esteban Lorenzano; Amphiteater
+15h00 - 15h30; How to persist data with Pharo? Mongo/Voyage, Postgres, ODBC; Esteban Lorenzano; Amphiteater
+15h30 - 16h00; Coffee break;; Hall
 16h00 - 18h00; Hands-on: Building a Rest backend in 10 minutes; Christophe Demarey; Salle pleinière (A)
 18h00 - 18h30; Music performance / Live coding with Pharo; Domenico Cipriani; Amphiteater
+
+9:00 - 9:30; Pharo X news!; Stéphane Ducasse ; Amphiteater
+9:30 - 10:00; Pharo Virtual Machine : news from the front; Guillermo Polito & Pablo Tesone; Amphiteater
+10:00 - 10:30; Restore database; John Aspinal; Amphiteater
+10:30 - 11:00; Coffee break;; Hall
+11:00 - 11:30; Business application framework (Expressive Systems); Jonathan van Alteren, Object Guild; Amphiteater
+11:30 - 12:00; Industrial case; Norbert Hartl; Amphiteater
+12:00 - 12:30; Music performance / Live coding with Pharo; Domenico Cipriani; Amphiteater
+12:30 - 14:00; Lunch break;; A building
+14:00 - 14:10; Pheps; Esteban Lorenzano; Amphiteater
+14:00 - 15:00; Show us your project / Success Stories; Amphiteater
+15:00 - 16:00; Hands-on: VM; Guillermo Polito & Pablo Tesone; Amphiteater
+15:00 - 16:00; Hands-on: ML with Pharo; Sebastian Jordan Montano; Salle pleinière (A)
+16:00 - 16:30; Coffee break;; Hall
+16:30 - 18:00; Hands-on:  How to build an image without morphic, nor dev tools but with spec 2 / Gtk ?; Esteban Lorenzano; Salle pleinière (A)
+18:00 - 19:00; Music performance / Live coding with Pharo; Domenico Cipriani; Amphiteater
+
+9:00 - 9:30; Spec2 / Newtools; Esteban Lorenzano; Amphiteater
+9:30 - 10:00; How to customise Pharo tools? Extending Pharo with a visualisation; Milton Mamani Torres; Amphiteater
+10:00 - 10:30; Databases; Norbert Hartl; Amphiteater
+10:30 - 11:00; Coffee break;; Hall
+11:00 - 11:20; APart Form Editor;Pavel Krivanek; Amphiteater
+11:20 - 11:40; Method trackers;Massimo Nocentini; Amphiteater
+11:40 - 12:00; Configurable Roassal Layouts;Richard Uttner; Amphiteater
+12:00 - 12:30; PharoJS client-server applications development; Noury Bouraqadi; Amphiteater
+12:30 - 14:00; Lunch break;; A building
+14:00 - 14:30; Pharo Launcher Command Line; David Bajger; Amphiteater
+14:30 - 15:00; Debugger Roadmap; Steven Costiou; Amphiteater
+15:00 - 15:30; Coffee break;; Hall
+15:30 - 16:30; Hands-on Debugging; Maximilian Willembrinck Santander; Salle pleinière (A)
+16:30 - 17:00; Show us your project / Success Stories;; Salle pleinière (A)
+17:00 - 18:00; Networking / Pair programming;; Salle pleinière (A)
