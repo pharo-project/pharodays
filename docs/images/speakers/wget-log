@@ -1,0 +1,11 @@
+--2022-02-04 10:50:03--  https://avatars.githubusercontent.com/u/572494?s=400
+Resolving avatars.githubusercontent.com (avatars.githubusercontent.com)... 2606:50c0:8003::154, 2606:50c0:8002::154, 2606:50c0:8000::154, ...
+Connecting to avatars.githubusercontent.com (avatars.githubusercontent.com)|2606:50c0:8003::154|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5093 (5.0K) [image/jpeg]
+Saving to: ‘572494?s=400’
+
+572494?s=400                                                                              0%[                                                                                                                                                                                                                                ]       0  --.-KB/s               572494?s=400                                                                            100%[===============================================================================================================================================================================================================================>]   4.97K  --.-KB/s    in 0s      
+
+2022-02-04 10:50:03 (48.6 MB/s) - ‘572494?s=400’ saved [5093/5093]
+
